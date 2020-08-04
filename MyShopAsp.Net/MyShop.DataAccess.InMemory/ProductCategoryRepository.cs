@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyShop.DataAccess.InMemory
 {
+    //Not required further
     public class ProductCategoryRepository
     {
         ObjectCache cache = MemoryCache.Default;

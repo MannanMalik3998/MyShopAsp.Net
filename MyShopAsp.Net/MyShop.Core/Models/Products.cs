@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace MyShop.Core.Models
 {
-    public class Products
+    public class Products : BaseEntity
     {
-        public string Id{ get; set; }
+        //public string Id{ get; set; }
 
         //Restricting the length of name to be of maximum 20 characters
         //Adding a place holder "Product name" 
@@ -25,9 +25,11 @@ namespace MyShop.Core.Models
         public string catg { get; set; }
         public string img{ get; set; }
 
+        /*
         public Products()
         {
             this.Id = Guid.NewGuid().ToString();
         }
+        */
     }
 }

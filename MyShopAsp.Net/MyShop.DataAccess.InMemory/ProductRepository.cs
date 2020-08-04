@@ -9,6 +9,7 @@ using System.Net.Http.Headers;
 
 namespace MyShop.DataAccess.InMemory
 {
+    //Not required further
     public class ProductRepository
     {
         ObjectCache cache = MemoryCache.Default;
